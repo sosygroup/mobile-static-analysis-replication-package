@@ -1,135 +1,303 @@
-UID;Paper ID;Title;Year.of.publication;Publication.venue.name;Publication.venue.type;Analysis.goal;Macro.analysis.goal;Paper.goal;Focus;Usage;Evaluation;Platform specific;Implementation;Static/Hybrid approach;Machine Learning;App artifact;Additional input;Analysis pre-steps;Analysis type;Stakeholder;Tool availability;# apps evaluated;Toy/Real apps;Evaluation soundness;Industry involvement
-1;59S;NeSeDroid-Android Malware Detection Based on Network Traffic and Sensitive Resource Accessing;2017;ICDECT;Conference;MALWARE;E;Q;1;0;0;A;A;H;1;APK;Methods of interest;1;FLOW ANALYSIS;D;0;H;R;P;M
-2;61S;Analyzing Remote Server Locations for Personal Data Transfers in Mobile Apps;2017;PETS;Conference;PRIVACY;E;Q;1;0;0;G;A;H;0;APK;-;0;SLICING;A;0;L;R;Y;A
-3;65S;MaMaDroid: Detecting Android Malware by Building Markov Chains of Behavioral Models;2017;NDSS;Conference;MALWARE;E;Q;1;0;0;A;A;S;1;APK;-;0;MODEL BASED;A;1;L;R;Y;A
-4;100S;Ripple: Reflection Analysis for Android Apps in Incomplete Information Environments;2017;CODASPY;Conference;REFLECTION;M;I;1;0;0;A;A;S;0;APK;-;0;STRING ANALYSIS, TYPE INFERENCE, POINTS-TO ANALYSIS, FLOW ANALYSIS;D;1;H;R;Y;A
-5;27S;AndroDialysis: Analysis of Android Intent Effectiveness in Malware Detection;2017;Computers & Security;Journal;MALWARE;E;Q;1;0;0;A;A;S;1;APK;-;0;FLOW ANALYSIS, DATA MINING, CLASSIFICATION;A;0;L;R;Y;A
-6;44S;Profiling the responsiveness of Android applications via automated resource amplification;2016;MOBILESoft;Conference;PERFORMANCE;E;Q;1;0;0;A;A;H;0;SOURCE CODE;Methods of interest;0;FLOW ANALYSIS;D;0;H;R;P;A
-7;45S;Detecting Invalid Layer Combinations Using Control-Flow Analysis for Android;2016;ECOOP;Workshop;TESTING;I;I;1;0;0;G;A;S;0;SOURCE CODE;Policies, rules & constraints;0;FLOW ANALYSIS;D;0;H;R;N;A
-8;46S;Graph-aided directed testing of Android applications for checking runtime privacy behaviours;2016;AST;Workshop;TESTING;I;I;1;0;0;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;0;H;R;P;A
-9;48S;Dexteroid: Detecting malicious behaviors in Android apps using reverse-engineered life cycle models;2016;Computers & Security;Journal;MALWARE;E;Q;1;0;0;A;A;S;0;APK;-;0;MODEL BASED;A;0;H;R;Y;A
-10;51S;IacDroid: Preventing Inter-App Communication capability leaks in Android;2016;ISCC;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION;E, M;Q;1;0;0;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;P;M
-11;56S;Practical, formal synthesis and automatic enforcement of security policies for android;2016;DSN;Conference;PRIVACY;E;Q;1;0;0;A;A;S;1;APK;-;0;FLOW ANALYSIS, MODEL BASED;U;0;M;T;P;A
-12;57S;CapaDroid: Detecting Capability Leak for Android Applications;2016;SpaCCS;Workshop;INTER-APP COMMUNICATION, PRIVACY;E, M;Q;1;0;0;A;A;H;0;APK;-;1;MODEL BASED, SYMBOLIC EXECUTION;A;0;H;T, R;P;A
-13;58S;Asynchrony-aware static analysis of Android applications;2016;MEMOCODE;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS, TYPESTATE ANALYSIS;D, A;1;L;T;Y;A
-14;60S;Identifying Android inter app communication vulnerabilities using static and dynamic analysis;2016;MOBILESoft;Conference;INTER-APP COMMUNICATION, PRIVACY;E, M;Q;1;0;0;A;A;H;0;APK;-;0;TAINT ANALYSIS, FLOW ANALYSIS;D;1;M;T, R;P;A
-15;63S;Towards Automatically Generating Privacy Policy for Android Apps;2016;IFS;Journal;PRIVACY;E;Q;1;0;0;A;A;S;1;APK;Platform description;1;FLOW ANALYSIS;D;0;L;T;P;A
-16;64S;Revisiting the Description-to-Behavior Fidelity in Android Applications;2016;SANER;Conference;PRIVACY;E;Q;1;0;0;A;A;S;1;APK;Policies, rules & constraints, App Store Descriptions;1;DATA MINING, CLASSIFICATION;D, A;0;H;T, R;Y;A
-17;70S;Triggerscope: Towards detecting logic bombs in android applications;2016;S&P;Conference;MALWARE;E;Q;1;0;0;A;A;S;0;APK;-;1;SYMBOLIC EXECUTION, FLOW ANALYSIS;A;0;H;T, R;Y;A
-18;75S;Automated test generation for detection of leaks in Android applications;2016;AST;Workshop;TESTING;I;Q;1;0;0;A;A;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;D, A;1;L;R;N;A
-19;76S;Automatic Construction of Callback Model for Android Application;2016;ICECCS;Conference;INTER-COMPONENT COMMUNICATION;M;I;1;0;0;A;A;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;D, R;0;H;R;N;A
-20;27;Automated energy optimization of HTTP requests for mobile applications;2016;ICSE;Conference;ENERGY;E;Q;1;0;0;G;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;H;R;Y;A
-21;28;Understanding and detecting wake lock misuses for Android applications;2016;FSE;Conference;ENERGY;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;Y;A
-22;29;Taming Android fragmentation: characterizing and detecting compatibility issues for Android apps;2016;ASE;Conference;TESTING, PERFORMANCE;E, I;I;1;0;0;A;A;S;0;APK;Source code mappings;1;SLICING;D;1;H;R;Y;A
-23;31;Reflection-aware static analysis of Android apps;2016;ASE;Conference;REFLECTION;M;I;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS, CONSTANT PROPAGATION;D;0;H;R;N;A
-24;33;Automated testing and notification of mobile app privacy leak-cause behaviours;2016;ASE;Conference;PRIVACY, TESTING;E, I;I;1;0;0;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;1;L;T;N;A
-25;34;Finding resume and restart errors in Android applications;2016;OOPSLA;Conference;TESTING;I;I;1;0;0;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;0;M;R;Y;A
-26;35;DroidRA: Taming Reflection to Support Whole-ProgramAnalysis of Android Apps;2016;ISSTA;Conference;REFLECTION;M;I;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS, CONSTANT PROPAGATION;D;1;L;R;N;A
-27;36;Empirical assessment of machine learning-based malware detectors for Android;2016;ESEJ;Journal;MALWARE;E;Q;0;1;0;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;A;0;M;R;Y;A
-28;37;Effective detection of android malware based on the usage of data flow APIs and machine learning;2016;IST;Journal;MALWARE;E;Q;1;0;0;A;A;S;1;APK;-;0;FLOW ANALYSIS;A;0;H;R;Y;A
-29;101S;On the Static Analysis of Hybrid Mobile Apps - A Report on the State of Apache Cordova Nation;2016;ESSoS;Journal;FRAMEWORK;M;I;1;0;0;G;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;Y;A
-30;110S;Towards a Generic Framework for Automating ExtensiveAnalysis of Android Applications;2016;SAC;Conference;FRAMEWORK;M;I;1;0;0;A;A;S;0;APK;-;0;CODE INSTRUMENTATION;R;0;H;R;Y;A
-31;5S;Static Program Analysis for Identifying Energy Bugs in Graphics-Intensive Mobile Apps;2016;MASCOTS;Conference;ENERGY, REFACTORING;E, I;Q;1;0;0;A;A;H;0;SOURCE CODE;-;0;FLOW ANALYSIS;D;0;L;R;Y;A
-32;15S;Combining static analysis with probabilistic models to enable market-scale android inter-component analysis;2016;POPL;Journal;INTER-APP COMMUNICATION, INTER-COMPONENT COMMUNICATION;M;I;1;0;0;A;A;S;1;APK;-;1;FLOW ANALYSIS;A;0;H;R;Y;M
-33;17S;DroidNative: automating and optimizing detection of android native code malware variants;2016;COMPUTERS & SECURITY;Journal;MALWARE;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS, CLASSIFICATION;A;1;H;R;Y;A
-34;18S;Enabling Automatic Protocol Behavior Analysis for Android Applications;2016;CoNEXT;Conference;INTER-APP COMMUNICATION;M;I;1;0;0;A;A;S;0;APK;-;0;TAINT ANALYSIS, SLICING;A;0;H;R;Y;A
-35;19S;PERUIM: Understanding Mobile Application Privacy with permission-UI Mapping;2016;UbiComp;Conference;PRIVACY;E;Q;1;0;0;A;A;H;0;APK;-;0;TAINT ANALYSIS, MODEL BASED;U;0;H;T, R;N;A
-36;24S;HybriDroid: Static Analysis Framework for Android Hybrid Applications;2016;ASE;Conference;FRAMEWORK;M;I;1;0;0;A;A;S;0;APK;-;0;TAINT ANALYSIS;R;0;L;R;P;M
-37;25S;StubDroid: automatic inference of precise data-flow summaries for the android framework;2016;ICSE;Conference;FRAMEWORK;M;Q;1;0;0;A;A;S;0;APK, SOURCE CODE;-;0;TAINT ANALYSIS;A;0;L;T;P;M
-38;26S;FlowMine: Android app analysis via data flow;2016;CCNC;Conference;MALWARE;E;Q;1;0;0;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;M;R;N;A
-39;29S;Debugging energy-efficiency related field failures in mobile apps;2016;MOBILESoft;Conference;ENERGY;E;Q;1;0;0;A;A;S;0;APK;-;0;PATTERN-BASED CONTEXTUAL ANALYSIS;D, U;0;H;R;P;A
-40;32S;State-Taint Analysis for Detecting Resource Bugs;2016;TASE;Conference;TESTING, RESOURCE, ENERGY;E, I;Q;1;0;0;A;A;S;0;APK;-;0;TAINT ANALYSIS;D;1;H;R;N;A
-41;33S;Fixing Resource Leaks in Android Apps with Light-Weight Static Analysis and Low-Overhead Instrumentation;2016;ISSRE;Conference;RESOURCE;I;Q;1;0;0;A;A;H;0;APK;-;1;FLOW ANALYSIS;D;0;L;T;N;A
-42;34S;Relda2: an effective static analysis tool for resource leak detection in Android apps;2016;ASE;Conference;RESOURCE;I;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;H;R;N;A
-43;35S;Detecting energy leaks in android app with poem;2016;PerCom;Workshop;ENERGY;E;Q;1;0;0;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;N;A
-44;36S;Lightweight measurement and estimation of mobile ad energy consumption;2016;GREENS;Workshop;ENERGY;E;Q;1;0;0;A;A;H;0;APK;-;0;DATA MINING, STATISTICAL ANALYSIS;D;0;M;T, R;P;A
-45;13;AppContext: Differentiating Malicious and Benign Mobile App Behaviors Using Context;2015;ICSE;Conference;MALWARE;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;Y;A
-46;14;Mining Apps for Abnormal Usage of Sensitive Data;2015;ICSE;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;H;R;P;M
-47;15;CLAPP: characterizing loops in Android applications;2015;ESEC/FSE;Conference;PERFORMANCE;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;L;T;N;A
-48;16;Study and Refactoring of Android Asynchronous Programming;2015;ASE;Conference;PERFORMANCE, REFACTORING;E, I;Q;1;0;0;A;A;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;D;0;M;R;P;A
-49;17;Tracking the Software Quality of Android Applications Along Their Evolution;2015;ASE;Conference;ANTIPATTERNS;I;Q;0;1;0;A;A;S;0;APK;App Store Descriptions;1;MODEL BASED;D;0;M;R;P;A
-50;18;Covert Communication in Mobile Applications;2015;ASE;Conference;INTER-APP COMMUNICATION, INTER-COMPONENT COMMUNICATION;M;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;D, A;0;M;R;P;M
-51;19;Static Window Transition Graphs for Android;2015;ASE;Conference;INTER-APP COMMUNICATION;M;I;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;H;R;N;M
-52;20;Static Analysis of Implicit Control Flow: Resolving Java Reflection and Android Intents;2015;ASE;Conference;INTER-APP COMMUNICATION, INTER-COMPONENT COMMUNICATION;M;I;1;0;0;A;A;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;D;0;L;R;P;A
-53;21;String Analysis of Android Applications;2015;ASE;Conference;INTER-COMPONENT COMMUNICATION, REFLECTION, MALWARE;M, E;Q;1;0;0;G;A;S;0;APK;Source code mappings;1;FLOW ANALYSIS, ABSTRACT INTERPRETATION;D, A;0;L;T;N;A
-54;22;Interactively verifying absence of explicit information flows in Android apps;2015;SPLASH/OOPSLA;Conference;MALWARE;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;0;M;R;N;A
-55;23;ShamDroid: gracefully degrading functionality in the presence of limited resource access;2015;SPLASH/OOPSLA;Conference;REFACTORING, RESOURCE;I;Q;1;0;0;G;A;S;0;APK;Target permission to revoke;0;SLICING, TYPE INFERENCE;D;0;M;R;P;M
-56;24;WuKong: a scalable and accurate two-phase approach to Android app clone detection;2015;ISSTA;Conference;MALWARE;E;I;1;0;0;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;A;1;L;T;P;A
-57;40S;Reevaluating Android Permission Gaps with Static and Dynamic Analysis;2015;GLOBECOM;Conference;PRIVACY;E;Q;1;0;0;A;A;H;0;APK;-;1;FLOW ANALYSIS;D;0;L;R;P;A
-58;62S;Andro-autopsy: Anti-malware system based on similarity matching of malware and malware creator-centric information;2015;Digital Investigation;Journal;MALWARE;E;Q;1;0;0;G;A;H;1;APK;-;1;FLOW ANALYSIS, DATA MINING, CLASSIFICATION;A;0;L;R;Y;M
-59;81S;EdgeMiner: Automatically Detecting Implicit Control Flow Transitions through the Android Framework;2015;NDSS;Conference;INTER-COMPONENT COMMUNICATION;M;I;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;H;R;Y;A
-60;82S;What the app is that? deception and countermeasures in the android user interface;2015;IEEE S&P;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;DATA MINING, FLOW ANALYSIS, SLICING;A;0;H;R;P;A
-61;86S;Scalable and Precise Taint Analysis for Android;2015;ISSTA;Conference;MALWARE, PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;H;R;Y;M
-62;98S;AutoPPG: Towards Automatic Generation of Privacy Policy for Android Applications;2015;SPSM;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;Methods of interest, Platform description;0;FLOW ANALYSIS;D;0;H;R;P;A
-63;102S;Information-Flow Analysis of Android Applications in DroidSafe;2015;NDSS;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK, SOURCE CODE;-;0;FLOW ANALYSIS, POINTS-TO ANALYSIS;U;0;M;R;Y;M
-64;107S;StaDynA: Addressing the Problem of Dynamic Code Updates in the Security Analysis of Android Applications;2015;CODASPY;Conference;REFLECTION;M;I;1;0;0;A;A;H;0;APK;-;0;DATA MINING;A;1;L;R;Y;A
-65;115S;Potential Component Leaks in Android Apps: An Investigation into a New Feature Set for Malware Detection;2015;QRS;Conference;MALWARE, INTER-COMPONENT COMMUNICATION;E, M;Q;1;0;0;A;A;S;1;APK;-;0;TAINT ANALYSIS;A;0;M;R;Y;A
-66;10;Static Control-Flow Analysis of User-Driven Callbacks in Android Applications;2015;ICSE;Conference;INTER-COMPONENT COMMUNICATION;M;I;1;0;0;A;A;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;R;0;M;R;P;A
-67;11;Composite Constant Propagation: Application to Android Inter-Component Communication Analysis;2015;ICSE;Conference;INTER-COMPONENT COMMUNICATION;M;I;1;0;0;G;A;S;0;APK;-;1;TAINT ANALYSIS;R;0;M;R;P;A
-68;12;IccTA: Detecting Inter-Component Privacy Leaks in Android Apps;2015;ICSE;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;H;R;P;A
-69;2S;EcoDroid: An Approach for Energy-based Ranking of Android Apps;2015;GREENS;Workshop;ENERGY;E;Q;1;0;0;A;A;H;0;APK;-;0;FLOW ANALYSIS, MODEL BASED;D;0;L;R;P;A
-70;12S;Supor: Precise and scalable sensitive user input detection for android apps;2015;USENIX Security Symposium;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;H;R;P;M
-71;13S;Uipicker: User-input privacy identification in mobile applications;2015;USENIX Security Symposium;Conference;PRIVACY;E;Q;1;0;0;G;A;H;1;APK;-;1;TAINT ANALYSIS, DATA MINING, CLASSIFICATION;A;0;H;R;P;A
-72;28S;Andro Lyze: A Distributed Framework for Efficient Android App Analysis;2015;IEEE MS;Conference;FRAMEWORK;M;Q;1;0;0;A;A;S;0;APK;User defined analysis;1;FLOW ANALYSIS;A;0;H;R;P;A
-73;39S;Using text mining to infer the purpose of permission use in mobile apps;2015;UbiComp;Conference;PRIVACY;E;Q;1;0;0;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;U;0;H;R;P;M
-74;42S;Static reference analysis for GUI objects in Android software;2014;CGO;Conference;INTER-COMPONENT COMMUNICATION;M;I;1;0;0;A;A;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;D;0;L;R;N;A
-75;43S;Static analysis for independent app developers;2014;ACM SIGPLAN Notices;Journal;TESTING;I;I;1;0;0;G;T;S;0;SOURCE CODE;-;0;ABSTRACT INTERPRETATION;D;0;M;T;N;M
-76;52S;Cochecker: Detecting capability and sensitive data leaks from component chains in android;2014;ACISP;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION;E, M;Q;1;0;0;A;A;S;0;SOURCE CODE;Methods of interest;1;TAINT ANALYSIS, ABSTRACT INTERPRETATION;D;0;H;T, R;N;A
-77;53S;Android Taint Flow Analysis for App Sets;2014;SOAP;Workshop;INTER-APP COMMUNICATION, INTER-COMPONENT COMMUNICATION, PRIVACY;E, M;Q;1;0;0;A;A;S;0;APK;-;0;TAINT ANALYSIS;D, A;1;L;T;Y;A
-78;54S;Amandroid: A precise and general inter-component data flow analysis framework for security vetting of android apps;2014;SIGSAC;Conference;INTER-COMPONENT COMMUNICATION, PRIVACY;E, M;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;M;T, R;P;A
-79;55S;AppSealer: Automatic Generation of Vulnerability-Specific Patches for Preventing Component Hijacking Attacks in Android Applications;2014;NDSS;Conference;REFACTORING, PRIVACY;E, I;Q;1;0;0;A;A;S;0;APK;-;0;TAINT ANALYSIS, SLICING;D;0;L;T;P;A
-80;67S;Semantics-aware android malware classification using weighted contextual api dependency graphs;2014;SIGSAC;Conference;MALWARE;E;Q;1;0;0;A;A;S;1;APK;-;1;DATA MINING, CLASSIFICATION, MODEL BASED;D, A;0;H;T, R;P;A
-81;69S;DREBIN: Effective and Explainable Detection of Android Malware in Your Pocket;2014;NDSS;Conference;MALWARE;E;Q;1;0;0;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;U;0;H;T, R;P;A
-82;73S;Retrofitting concurrency for android applications through refactoring;2014;SIGSOFT;Conference;PERFORMANCE, REFACTORING;E, I;Q;1;0;0;A;A;S;0;SOURCE CODE;-;1;FLOW ANALYSIS;D;1;L;R;P;A
-83;74S;Checking app behavior against app descriptions;2014;ICSE;Conference;MALWARE;E;Q;1;0;0;G;A;S;1;APK;App Store Descriptions;0;DATA MINING, CLASSIFICATION;A;0;H;R;N;A
-84;26;Information Flows As a Permission Mechanism;2014;ASE;Conference;PRIVACY;E;Q;0;1;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;1;H;R;Y;A
-85;78S;Greendroid: Automated diagnosis of energy inefficiency for smartphone applications;2014;TSE;Journal;ENERGY;E;Q;1;0;0;A;A;H;0;APK;Platform description;1;MODEL BASED;D;0;L;R;P;A
-86;84S;FlowDroid: Precise context-,flow-,field-,object-sensitive and lifecycle-aware taint analysis forandroid apps;2014;PLDI;Conference;FRAMEWORK, INTER-COMPONENT COMMUNICATION;M;I;1;0;0;A;A;S;0;APK;Methods of interest;0;TAINT ANALYSIS;D, R;1;H;R;Y;A
-87;87S;Cassandra: Towards a Certifying App Store for Android;2014;SPSM;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;Policies, rules & constraints;0;FLOW ANALYSIS;U, A;0;L;T;N;A
-88;103S;Code Injection Attacks on HTML5-based Mobile Apps:Characterization, Detection and Mitigation;2014;CCS;Conference;PRIVACY;E;Q;1;0;0;G;G;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;D;0;H;R;Y;A
-89;109S;Efficient, context-aware privacy leakage confinement for android applications without firmware modding;2014;ASIA CSS;Conference;PRIVACY;E;Q;1;0;0;A;A;H;0;APK;-;0;FLOW ANALYSIS;A;0;H;R;Y;A
-90;111S;Collaborative Verification of Information Flow for a High-Assurance App Store;2014;CCS;Conference;MALWARE;E;Q;1;0;0;G;A;S;0;SOURCE CODE;Policies, rules & constraints;1;FLOW ANALYSIS, TYPE INFERENCE;A;1;L;T;Y;A
-91;112S;Multi-App Security Analysis with FUSE: Statically Detecting Android App Collusion;2014;PPREW;Conference;MALWARE, INTER-APP COMMUNICATION;E, M;Q;1;0;0;A;A;S;0;APK;Source code mappings;0;FLOW ANALYSIS, TAINT ANALYSIS, STRING ANALYSIS;A;0;M;R;P;I
-92;2;Characterizing and detecting performance bugs for smartphone applications;2014;ICSE;Conference;ENERGY, PERFORMANCE, RESOURCE;E, M;Q;1;0;0;A;A;S;0;APK;-;0;DATA MINING;D;1;L;R;Y;A
-93;3;AsDroid: detecting stealthy behaviors in Android applications by user interface and program behavior contradiction;2014;ICSE;Conference;MALWARE;E;Q;1;0;0;A;A;S;1;APK;-;1;FLOW ANALYSIS;A;0;M;R;P;A
-94;4;Apposcopy: semantics-based detection of Android malware through static analysis;2014;FSE;Conference;MALWARE;E;Q;1;0;0;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;H;R;N;A
-95;5;Detecting energy bugs and hotspots in mobile apps;2014;FSE;Conference;ENERGY;E;Q;1;0;0;A;A;H;0;APK;-;1;FLOW ANALYSIS;D;0;L;R;Y;A
-96;8;Static Analysis for Extracting Permission Checks of a Large Scale Framework: The Challenges and Solutions for Analyzing Android;2014;TSE;Journal;PRIVACY;E;Q;1;0;0;G;A;S;0;APK;-;0;STRING ANALYSIS;D;0;H;R;Y;A
-97;30S;Responsiveness analysis tool for android application;2014;DeMobile;Workshop;PERFORMANCE;E;Q;1;0;0;A;A;S;0;SOURCE CODE;-;0;RESPONSIVENESS ANALYSIS;D;0;L;R;N;A
-98;38S;Automatically exploiting potential component leaks in android applications;2014;TrustCom;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION;E, M;Q;1;0;0;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;H;R;P;A
-99;50S;Effective inter-component communication mapping in android: An essential step towards holistic security analysis;2013;USENIX;Conference;PRIVACY, INTER-APP COMMUNICATION;E, M;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;H;R;P;A
-100;66S;DroidAPIMiner: Mining API-level features for robust malware detection in android;2013;SecureComm;Conference;MALWARE;E;Q;1;0;0;A;A;H;1;APK;-;1;DATA MINING, CLASSIFICATION;A;0;H;R;P;A
-101;71S;An empirical study of cryptographic misuse in android applications;2013;SIGSAC;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;SLICING, FLOW ANALYSIS;D;0;H;T, R;Y;A
-102;77S;Targeted and depth-first exploration for systematic testing of android apps;2013;ACM SIGPLAN Notices;Journal;TESTING;I;Q;1;0;0;A;A;H;0;APK;-;0;TAINT ANALYSIS, FLOW ANALYSIS;D;0;L;R;P;A
-103;88S;Sound and precise malware analysis for android via pushdown reachability and entry-point saturation;2013;SPSM;Conference;MALWARE;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;0;L;T;P;A
-104;91S;AppIntent: analyzing sensitive data transmission in android for privacy leakage detection;2013;CCS;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION;E, M;Q;1;0;0;A;A;H;0;APK;-;0;SYMBOLIC EXECUTION;A;0;M;R;Y;A
-105;92S;AppProfiler: a flexible method of exposing privacy-related behavior in android applications to end users;2013;CODASPY;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;1;DATA MINING, CLASSIFICATION;U;0;H;R;Y;A
-106;94S;Flow permissions for android;2013;ASE;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION, INTER-APP COMMUNICATION;E, M;Q;1;0;0;A;A;S;0;APK;Source code mappings;0;FLOW ANALYSIS;U;1;M;R;P;A
-107;105S;Slicing Droids: Program Slicing for Smali Code;2013;SAC;Conference;MALWARE;E;Q;1;0;0;A;A;S;0;APK;Source code mappings;0;FLOW ANALYSIS, SLICING;A;1;H;R;Y;A
-108;108S;A grey-box approach for automated GUI-model generation of mobile applications;2013;FASE;Conference;INTER-COMPONENT COMMUNICATION;M;I;1;0;0;G;A;H;0;SOURCE CODE;-;0;SLICING;D;0;L;T;P;M
-109;114S;Structural detection of android malware using embedded call graphs;2013;AISec;Conference;MALWARE;E;Q;1;0;0;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;A;0;H;R;Y;A
-110;1;Estimating mobile application energy consumption using program analysis;2013;ICSE;Conference;ENERGY;E;Q;1;0;0;G;A;S;0;APK;Workload Description;1;FLOW ANALYSIS;D;0;L;R;P;A
-111;6;Characterizing and detecting resource leaks in Android applications;2013;ASE;Conference;ENERGY, RESOURCE;E, I;Q;1;0;0;A;A;S;0;APK, SOURCE CODE;-;0;FLOW ANALYSIS;D;0;M;T, R;N;A
-112;7;Calculating source line level energy information for Android applications;2013;ISSTA;Conference;ENERGY;E;Q;1;0;0;G;A;H;0;APK;Source code mappings;1;CONSTANT PROPAGATION, CODE INSTRUMENTATION;D;0;L;R;Y;A
-113;49S;Smartdroid: an automatic system for revealing ui-based trigger conditions in android applications;2012;SPSM;Workshop;MALWARE;E;Q;1;0;0;A;A;H;0;APK;-;0;FLOW ANALYSIS;A;0;L;T;N;A
-114;72S;Why Eve and Mallory love Android: An analysis of Android SSL (in) security;2012;CCS;Conference;PRIVACY;E;Q;0;1;0;G;A;S;0;APK;-;0;DATA MINING, CLASSIFICATION;R;0;M;R;N;A
-115;79S;User-aware privacy control via extended static-information-flow analysis;2012;ASE;Conference;PRIVACY;E;Q;1;0;0;G;G;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;U;0;M;R;P;M
-116;83S;Dr. Android and Mr. Hide: fine-grained permissions in android applications;2012;SPSM;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;STRING ANALYSIS, CONSTANT PROPAGATION;D;0;M;R;Y;M
-117;85S;LeakMiner: Detect Information Leakage on Android with Static Taint Analysis;2012;WCSE;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;H;R;P;A
-118;89S;SCANDAL: Static Analyzer for Detecting Privacy Leaks in Android Applications;2012;MOST;Workshop;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;0;L;R;P;M
-119;93S;A framework for static detection of privacy leaks in android applications;2012;SAC;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;Policies, rules & constraints;1;FLOW ANALYSIS;U;0;L;T;N;A
-120;97S;DroidChecker: analyzing android applications for capability leak;2012;WiSec;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION, INTER-APP COMMUNICATION;E, M;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS, TAINT ANALYSIS;D;0;M;R;P;A
-121;113S;DroidMat: Android Malware Detection through Manifest and API Calls Tracing;2012;Asia JCIS;Conference;MALWARE;E;Q;1;0;0;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;A;0;M;R;P;A
-122;9;Static analysis of Android programs;2012;IST;Journal;TESTING;I;I;1;0;0;A;A;S;0;APK;-;0;CLASS, NULLNESS, TERMINATION ANALYSIS;D;1;L;R;Y;A
-123;1S;Estimating Android applications' CPU energy usage via bytecode profiling;2012;GREENS;Workshop;ENERGY;E;Q;1;0;0;A;A;S;0;APK;System profile, Test cases;1;FLOW ANALYSIS;D;0;L;T;P;A
-124;3S;What is keeping my phone awake?: characterizing and detecting no-sleep energy bugs in smartphone apps;2012;MOBISYS;Conference;ENERGY;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;Y;A
-125;6S;User-centric dependence analysis for identifying malicious mobile apps;2012;MOST;Workshop;MALWARE;E;Q;1;0;0;A;A;S;0;APK, SOURCE CODE;-;0;FLOW ANALYSIS, MODEL BASED;A;0;L;R;N;A
-126;8S;AndroidLeaks: automatically detecting potential privacy leaks in android applications on a large scale;2012;TRUST;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;Source code mappings;1;DATA MINING, TAINT ANALYSIS;A;0;H;R;P;M
-127;11S;Hey, You, Get Off of My Market: Detecting Malicious Apps in Official and Alternative Android Markets.;2012;NDSS;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS, CLASSIFICATION;A;0;H;R;P;A
-128;22S;RiskRanker: Scalable and Accurate Zero-day Android Malware Detection;2012;MobiSys;Conference;MALWARE;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS, CLASSIFICATION;A;0;H;R;Y;M
-129;23S;Chex: statically vetting android apps for component hijacking vulnerabilities;2012;CCS;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;D, A;0;H;R;P;M
-130;37S;Automatically securing permission-based software by reducing the attack surface: An application to android;2012;ASE;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS, DATA MINING;A;0;M;R;N;A
-131;80S;Android permissions demystified;2011;CCS;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;Source code mappings;0;DATA MINING, FLOW ANALYSIS;A;0;M;R;P;A
-132;104S;Using static analysis for automatic assessment and mitigation of unwanted and malicious activities within Android applications;2011;MALWARE;Conference;PRIVACY;E;Q;1;0;0;A;A;S;0;APK;-;0;DATA MINING;A;0;M;R;N;A
-133;20S;Analyzing Inter-application Communication in Android;2011;MobiSys;Conference;INTER-APP COMMUNICATION;M;I;1;0;0;A;A;S;0;APK;-;0;FLOW ANALYSIS;A, D, U;0;M;R;P;A
-134;21S;PiOS: Detecting Privacy Leaks in iOS Applications;2011;NDSS;Workshop;PRIVACY;E;Q;1;0;0;I;I;S;0;IPA, SOURCE CODE;-;0;FLOW ANALYSIS, SLICING;A;0;H;R;Y;A
+UID;Paper ID;Title;Year.of.publication;Publication.venue.name;Publication.venue.type;Analysis.goal;Macro.analysis.goal;Paper.goal;Platform specific;Implementation;Static/Hybrid approach;Machine Learning;App artifact;Additional input;Analysis pre-steps;Analysis type;Stakeholder;Tool availability;# apps evaluated;Toy/Real apps;Industry involvement
+1;59S;NeSeDroid-Android Malware Detection Based on Network Traffic and Sensitive Resource Accessing;2017;ICDECT;Conference;MALWARE;E;Q;A;A;H;1;APK;Methods of interest;1;FLOW ANALYSIS;D;0;H;R;M
+2;61S;Analyzing Remote Server Locations for Personal Data Transfers in Mobile Apps;2017;PETS;Conference;PRIVACY;E;Q;G;A;H;0;APK;-;0;SLICING;A;0;L;R;A
+3;65S;MaMaDroid: Detecting Android Malware by Building Markov Chains of Behavioral Models;2017;NDSS;Conference;MALWARE;E;Q;A;A;S;1;APK;-;0;MODEL BASED;A;1;L;R;A
+4;100S;Ripple: Reflection Analysis for Android Apps in Incomplete Information Environments;2017;CODASPY;Conference;REFLECTION;M;I;A;A;S;0;APK;-;0;STRING ANALYSIS, TYPE INFERENCE, POINTS-TO ANALYSIS, FLOW ANALYSIS;D;1;H;R;A
+5;27S;AndroDialysis: Analysis of Android Intent Effectiveness in Malware Detection;2017;Computers & Security;Journal;MALWARE;E;Q;A;A;S;1;APK;-;0;FLOW ANALYSIS, DATA MINING, CLASSIFICATION;A;0;L;R;A
+6;44S;Profiling the responsiveness of Android applications via automated resource amplification;2016;MOBILESoft;Conference;PERFORMANCE;E;Q;A;A;H;0;SOURCE CODE;Methods of interest;0;FLOW ANALYSIS;D;0;H;R;A
+7;45S;Detecting Invalid Layer Combinations Using Control-Flow Analysis for Android;2016;ECOOP;Workshop;TESTING;I;I;G;A;S;0;SOURCE CODE;Policies;0;FLOW ANALYSIS;D;0;H;R;A
+8;46S;Graph-aided directed testing of Android applications for checking runtime privacy behaviours;2016;AST;Workshop;TESTING;I;I;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;0;H;R;A
+9;48S;Dexteroid: Detecting malicious behaviors in Android apps using reverse-engineered life cycle models;2016;Computers & Security;Journal;MALWARE;E;Q;A;A;S;0;APK;-;0;MODEL BASED;A;0;H;R;A
+10;51S;IacDroid: Preventing Inter-App Communication capability leaks in Android;2016;ISCC;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION;E, M;Q;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;M
+11;56S;Practical, formal synthesis and automatic enforcement of security policies for android;2016;DSN;Conference;PRIVACY;E;Q;A;A;S;1;APK;-;0;FLOW ANALYSIS, MODEL BASED;U;0;M;T;A
+12;57S;CapaDroid: Detecting Capability Leak for Android Applications;2016;SpaCCS;Workshop;INTER-APP COMMUNICATION, PRIVACY;E, M;Q;A;A;H;0;APK;-;1;MODEL BASED, SYMBOLIC EXECUTION;A;0;H;T, R;A
+13;58S;Asynchrony-aware static analysis of Android applications;2016;MEMOCODE;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS, TYPESTATE ANALYSIS;D, A;1;L;T;A
+14;60S;Identifying Android inter app communication vulnerabilities using static and dynamic analysis;2016;MOBILESoft;Conference;INTER-APP COMMUNICATION, PRIVACY;E, M;Q;A;A;H;0;APK;-;0;TAINT ANALYSIS, FLOW ANALYSIS;D;1;M;T, R;A
+15;63S;Towards Automatically Generating Privacy Policy for Android Apps;2016;IFS;Journal;PRIVACY;E;Q;A;A;S;1;APK;Platform description;1;FLOW ANALYSIS;D;0;L;T;A
+16;64S;Revisiting the Description-to-Behavior Fidelity in Android Applications;2016;SANER;Conference;PRIVACY;E;Q;A;A;S;1;APK;Policies, App store descriptions;1;DATA MINING, CLASSIFICATION;D, A;0;H;T, R;A
+17;70S;Triggerscope: Towards detecting logic bombs in android applications;2016;S&P;Conference;MALWARE;E;Q;A;A;S;0;APK;-;1;SYMBOLIC EXECUTION, FLOW ANALYSIS;A;0;H;T, R;A
+18;75S;Automated test generation for detection of leaks in Android applications;2016;AST;Workshop;TESTING;I;Q;A;A;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;D, A;1;L;R;A
+19;76S;Automatic Construction of Callback Model for Android Application;2016;ICECCS;Conference;INTER-COMPONENT COMMUNICATION;M;I;A;A;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;D, R;0;H;R;A
+20;27;Automated energy optimization of HTTP requests for mobile applications;2016;ICSE;Conference;ENERGY;E;Q;G;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;H;R;A
+21;28;Understanding and detecting wake lock misuses for Android applications;2016;FSE;Conference;ENERGY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;A
+22;29;Taming Android fragmentation: characterizing and detecting compatibility issues for Android apps;2016;ASE;Conference;TESTING, PERFORMANCE;E, I;I;A;A;S;0;APK;Source code mappings;1;SLICING;D;1;H;R;A
+23;31;Reflection-aware static analysis of Android apps;2016;ASE;Conference;REFLECTION;M;I;A;A;S;0;APK;-;0;FLOW ANALYSIS, CONSTANT PROPAGATION;D;0;H;R;A
+24;33;Automated testing and notification of mobile app privacy leak-cause behaviours;2016;ASE;Conference;PRIVACY, TESTING;E, I;I;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;1;L;T;A
+25;34;Finding resume and restart errors in Android applications;2016;OOPSLA;Conference;TESTING;I;I;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;0;M;R;A
+26;35;DroidRA: Taming Reflection to Support Whole-ProgramAnalysis of Android Apps;2016;ISSTA;Conference;REFLECTION;M;I;A;A;S;0;APK;-;0;FLOW ANALYSIS, CONSTANT PROPAGATION;D;1;L;R;A
+27;36;Empirical assessment of machine learning-based malware detectors for Android;2016;ESEJ;Journal;MALWARE;E;Q;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;A;0;M;R;A
+28;37;Effective detection of android malware based on the usage of data flow APIs and machine learning;2016;IST;Journal;MALWARE;E;Q;A;A;S;1;APK;-;0;FLOW ANALYSIS;A;0;H;R;A
+29;101S;On the Static Analysis of Hybrid Mobile Apps - A Report on the State of Apache Cordova Nation;2016;ESSoS;Journal;FRAMEWORK;M;I;G;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;A
+30;110S;Towards a Generic Framework for Automating ExtensiveAnalysis of Android Applications;2016;SAC;Conference;FRAMEWORK;M;I;A;A;S;0;APK;-;0;CODE INSTRUMENTATION;R;0;H;R;A
+31;5S;Static Program Analysis for Identifying Energy Bugs in Graphics-Intensive Mobile Apps;2016;MASCOTS;Conference;ENERGY, REFACTORING;E, I;Q;A;A;H;0;SOURCE CODE;-;0;FLOW ANALYSIS;D;0;L;R;A
+32;15S;Combining static analysis with probabilistic models to enable market-scale android inter-component analysis;2016;POPL;Journal;INTER-APP COMMUNICATION, INTER-COMPONENT COMMUNICATION;M;I;A;A;S;1;APK;-;1;FLOW ANALYSIS;A;0;H;R;M
+33;17S;DroidNative: automating and optimizing detection of android native code malware variants;2016;COMPUTERS & SECURITY;Journal;MALWARE;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS, CLASSIFICATION;A;1;H;R;A
+34;18S;Enabling Automatic Protocol Behavior Analysis for Android Applications;2016;CoNEXT;Conference;INTER-APP COMMUNICATION;M;I;A;A;S;0;APK;-;0;TAINT ANALYSIS, SLICING;A;0;H;R;A
+35;19S;PERUIM: Understanding Mobile Application Privacy with permission-UI Mapping;2016;UbiComp;Conference;PRIVACY;E;Q;A;A;H;0;APK;-;0;TAINT ANALYSIS, MODEL BASED;U;0;H;T, R;A
+36;24S;HybriDroid: Static Analysis Framework for Android Hybrid Applications;2016;ASE;Conference;FRAMEWORK;M;I;A;A;S;0;APK;-;0;TAINT ANALYSIS;R;0;L;R;M
+37;25S;StubDroid: automatic inference of precise data-flow summaries for the android framework;2016;ICSE;Conference;FRAMEWORK;M;Q;A;A;S;0;APK, SOURCE CODE;-;0;TAINT ANALYSIS;A;0;L;T;M
+38;26S;FlowMine: Android app analysis via data flow;2016;CCNC;Conference;MALWARE;E;Q;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;M;R;A
+39;29S;Debugging energy-efficiency related field failures in mobile apps;2016;MOBILESoft;Conference;ENERGY;E;Q;A;A;S;0;APK;-;0;PATTERN-BASED CONTEXTUAL ANALYSIS;D, U;0;H;R;A
+40;32S;State-Taint Analysis for Detecting Resource Bugs;2016;TASE;Conference;TESTING, RESOURCE, ENERGY;E, I;Q;A;A;S;0;APK;-;0;TAINT ANALYSIS;D;1;H;R;A
+41;33S;Fixing Resource Leaks in Android Apps with Light-Weight Static Analysis and Low-Overhead Instrumentation;2016;ISSRE;Conference;RESOURCE;I;Q;A;A;H;0;APK;-;1;FLOW ANALYSIS;D;0;L;T;A
+42;34S;Relda2: an effective static analysis tool for resource leak detection in Android apps;2016;ASE;Conference;RESOURCE;I;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;H;R;A
+43;35S;Detecting energy leaks in android app with poem;2016;PerCom;Workshop;ENERGY;E;Q;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;A
+44;36S;Lightweight measurement and estimation of mobile ad energy consumption;2016;GREENS;Workshop;ENERGY;E;Q;A;A;H;0;APK;-;0;DATA MINING, STATISTICAL ANALYSIS;D;0;M;T, R;A
+45;13;AppContext: Differentiating Malicious and Benign Mobile App Behaviors Using Context;2015;ICSE;Conference;MALWARE;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;A
+46;14;Mining Apps for Abnormal Usage of Sensitive Data;2015;ICSE;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;H;R;M
+47;15;CLAPP: characterizing loops in Android applications;2015;ESEC/FSE;Conference;PERFORMANCE;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;L;T;A
+48;16;Study and Refactoring of Android Asynchronous Programming;2015;ASE;Conference;PERFORMANCE, REFACTORING;E, I;Q;A;A;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;D;0;M;R;A
+49;17;Tracking the Software Quality of Android Applications Along Their Evolution;2015;ASE;Conference;ANTIPATTERNS;I;Q;A;A;S;0;APK;App store descriptions;1;MODEL BASED;D;0;M;R;A
+50;18;Covert Communication in Mobile Applications;2015;ASE;Conference;INTER-APP COMMUNICATION, INTER-COMPONENT COMMUNICATION;M;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D, A;0;M;R;M
+51;19;Static Window Transition Graphs for Android;2015;ASE;Conference;INTER-APP COMMUNICATION;M;I;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;H;R;M
+52;20;Static Analysis of Implicit Control Flow: Resolving Java Reflection and Android Intents;2015;ASE;Conference;INTER-APP COMMUNICATION, INTER-COMPONENT COMMUNICATION;M;I;A;A;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;D;0;L;R;A
+53;21;String Analysis of Android Applications;2015;ASE;Conference;INTER-COMPONENT COMMUNICATION, REFLECTION, MALWARE;M, E;Q;G;A;S;0;APK;Source code mappings;1;FLOW ANALYSIS, ABSTRACT INTERPRETATION;D, A;0;L;T;A
+54;22;Interactively verifying absence of explicit information flows in Android apps;2015;SPLASH/OOPSLA;Conference;MALWARE;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;0;M;R;A
+55;23;ShamDroid: gracefully degrading functionality in the presence of limited resource access;2015;SPLASH/OOPSLA;Conference;REFACTORING, RESOURCE;I;Q;G;A;S;0;APK;Permissions of interest;0;SLICING, TYPE INFERENCE;D;0;M;R;M
+56;24;WuKong: a scalable and accurate two-phase approach to Android app clone detection;2015;ISSTA;Conference;MALWARE;E;I;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;A;1;L;T;A
+57;40S;Reevaluating Android Permission Gaps with Static and Dynamic Analysis;2015;GLOBECOM;Conference;PRIVACY;E;Q;A;A;H;0;APK;-;1;FLOW ANALYSIS;D;0;L;R;A
+58;62S;Andro-autopsy: Anti-malware system based on similarity matching of malware and malware creator-centric information;2015;Digital Investigation;Journal;MALWARE;E;Q;G;A;H;1;APK;-;1;FLOW ANALYSIS, DATA MINING, CLASSIFICATION;A;0;L;R;M
+59;81S;EdgeMiner: Automatically Detecting Implicit Control Flow Transitions through the Android Framework;2015;NDSS;Conference;INTER-COMPONENT COMMUNICATION;M;I;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;H;R;A
+60;82S;What the app is that? deception and countermeasures in the android user interface;2015;IEEE S&P;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;DATA MINING, FLOW ANALYSIS, SLICING;A;0;H;R;A
+61;86S;Scalable and Precise Taint Analysis for Android;2015;ISSTA;Conference;MALWARE, PRIVACY;E;Q;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;H;R;M
+62;98S;AutoPPG: Towards Automatic Generation of Privacy Policy for Android Applications;2015;SPSM;Conference;PRIVACY;E;Q;A;A;S;0;APK;Methods of interest, Platform description;0;FLOW ANALYSIS;D;0;H;R;A
+63;102S;Information-Flow Analysis of Android Applications in DroidSafe;2015;NDSS;Conference;PRIVACY;E;Q;A;A;S;0;APK, SOURCE CODE;-;0;FLOW ANALYSIS, POINTS-TO ANALYSIS;U;0;M;R;M
+64;107S;StaDynA: Addressing the Problem of Dynamic Code Updates in the Security Analysis of Android Applications;2015;CODASPY;Conference;REFLECTION;M;I;A;A;H;0;APK;-;0;DATA MINING;A;1;L;R;A
+65;115S;Potential Component Leaks in Android Apps: An Investigation into a New Feature Set for Malware Detection;2015;QRS;Conference;MALWARE, INTER-COMPONENT COMMUNICATION;E, M;Q;A;A;S;1;APK;-;0;TAINT ANALYSIS;A;0;M;R;A
+66;10;Static Control-Flow Analysis of User-Driven Callbacks in Android Applications;2015;ICSE;Conference;INTER-COMPONENT COMMUNICATION;M;I;A;A;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;R;0;M;R;A
+67;11;Composite Constant Propagation: Application to Android Inter-Component Communication Analysis;2015;ICSE;Conference;INTER-COMPONENT COMMUNICATION;M;I;G;A;S;0;APK;-;1;TAINT ANALYSIS;R;0;M;R;A
+68;12;IccTA: Detecting Inter-Component Privacy Leaks in Android Apps;2015;ICSE;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;H;R;A
+69;2S;EcoDroid: An Approach for Energy-based Ranking of Android Apps;2015;GREENS;Workshop;ENERGY;E;Q;A;A;H;0;APK;-;0;FLOW ANALYSIS, MODEL BASED;D;0;L;R;A
+70;12S;Supor: Precise and scalable sensitive user input detection for android apps;2015;USENIX Security Symposium;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;H;R;M
+71;13S;Uipicker: User-input privacy identification in mobile applications;2015;USENIX Security Symposium;Conference;PRIVACY;E;Q;G;A;H;1;APK;-;1;TAINT ANALYSIS, DATA MINING, CLASSIFICATION;A;0;H;R;A
+72;28S;Andro Lyze: A Distributed Framework for Efficient Android App Analysis;2015;IEEE MS;Conference;FRAMEWORK;M;Q;A;A;S;0;APK;User defined analysis;1;FLOW ANALYSIS;A;0;H;R;A
+73;39S;Using text mining to infer the purpose of permission use in mobile apps;2015;UbiComp;Conference;PRIVACY;E;Q;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;U;0;H;R;M
+74;42S;Static reference analysis for GUI objects in Android software;2014;CGO;Conference;INTER-COMPONENT COMMUNICATION;M;I;A;A;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;D;0;L;R;A
+75;43S;Static analysis for independent app developers;2014;ACM SIGPLAN Notices;Journal;TESTING;I;I;G;T;S;0;SOURCE CODE;-;0;ABSTRACT INTERPRETATION;D;0;M;T;M
+76;52S;Cochecker: Detecting capability and sensitive data leaks from component chains in android;2014;ACISP;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION;E, M;Q;A;A;S;0;SOURCE CODE;Methods of interest;1;TAINT ANALYSIS, ABSTRACT INTERPRETATION;D;0;H;T, R;A
+77;53S;Android Taint Flow Analysis for App Sets;2014;SOAP;Workshop;INTER-APP COMMUNICATION, INTER-COMPONENT COMMUNICATION, PRIVACY;E, M;Q;A;A;S;0;APK;-;0;TAINT ANALYSIS;D, A;1;L;T;A
+78;54S;Amandroid: A precise and general inter-component data flow analysis framework for security vetting of android apps;2014;SIGSAC;Conference;INTER-COMPONENT COMMUNICATION, PRIVACY;E, M;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;M;T, R;A
+79;55S;AppSealer: Automatic Generation of Vulnerability-Specific Patches for Preventing Component Hijacking Attacks in Android Applications;2014;NDSS;Conference;REFACTORING, PRIVACY;E, I;Q;A;A;S;0;APK;-;0;TAINT ANALYSIS, SLICING;D;0;L;T;A
+80;67S;Semantics-aware android malware classification using weighted contextual api dependency graphs;2014;SIGSAC;Conference;MALWARE;E;Q;A;A;S;1;APK;-;1;DATA MINING, CLASSIFICATION, MODEL BASED;D, A;0;H;T, R;A
+81;69S;DREBIN: Effective and Explainable Detection of Android Malware in Your Pocket;2014;NDSS;Conference;MALWARE;E;Q;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;U;0;H;T, R;A
+82;73S;Retrofitting concurrency for android applications through refactoring;2014;SIGSOFT;Conference;PERFORMANCE, REFACTORING;E, I;Q;A;A;S;0;SOURCE CODE;-;1;FLOW ANALYSIS;D;1;L;R;A
+83;74S;Checking app behavior against app descriptions;2014;ICSE;Conference;MALWARE;E;Q;G;A;S;1;APK;App store descriptions;0;DATA MINING, CLASSIFICATION;A;0;H;R;A
+84;26;Information Flows As a Permission Mechanism;2014;ASE;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;1;H;R;A
+85;78S;Greendroid: Automated diagnosis of energy inefficiency for smartphone applications;2014;TSE;Journal;ENERGY;E;Q;A;A;H;0;APK;Platform description;1;MODEL BASED;D;0;L;R;A
+86;84S;FlowDroid: Precise context-,flow-,field-,object-sensitive and lifecycle-aware taint analysis forandroid apps;2014;PLDI;Conference;FRAMEWORK, INTER-COMPONENT COMMUNICATION;M;I;A;A;S;0;APK;Methods of interest;0;TAINT ANALYSIS;D, R;1;H;R;A
+87;87S;Cassandra: Towards a Certifying App Store for Android;2014;SPSM;Conference;PRIVACY;E;Q;A;A;S;0;APK;Policies;0;FLOW ANALYSIS;U, A;0;L;T;A
+88;103S;Code Injection Attacks on HTML5-based Mobile Apps:Characterization, Detection and Mitigation;2014;CCS;Conference;PRIVACY;E;Q;G;G;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;D;0;H;R;A
+89;109S;Efficient, context-aware privacy leakage confinement for android applications without firmware modding;2014;ASIA CSS;Conference;PRIVACY;E;Q;A;A;H;0;APK;-;0;FLOW ANALYSIS;A;0;H;R;A
+90;111S;Collaborative Verification of Information Flow for a High-Assurance App Store;2014;CCS;Conference;MALWARE;E;Q;G;A;S;0;SOURCE CODE;Policies;1;FLOW ANALYSIS, TYPE INFERENCE;A;1;L;T;A
+91;112S;Multi-App Security Analysis with FUSE: Statically Detecting Android App Collusion;2014;PPREW;Conference;MALWARE, INTER-APP COMMUNICATION;E, M;Q;A;A;S;0;APK;Source code mappings;0;FLOW ANALYSIS, TAINT ANALYSIS, STRING ANALYSIS;A;0;M;R;I
+92;2;Characterizing and detecting performance bugs for smartphone applications;2014;ICSE;Conference;ENERGY, PERFORMANCE, RESOURCE;E, M;Q;A;A;S;0;APK;-;0;DATA MINING;D;1;L;R;A
+93;3;AsDroid: detecting stealthy behaviors in Android applications by user interface and program behavior contradiction;2014;ICSE;Conference;MALWARE;E;Q;A;A;S;1;APK;-;1;FLOW ANALYSIS;A;0;M;R;A
+94;4;Apposcopy: semantics-based detection of Android malware through static analysis;2014;FSE;Conference;MALWARE;E;Q;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;H;R;A
+95;5;Detecting energy bugs and hotspots in mobile apps;2014;FSE;Conference;ENERGY;E;Q;A;A;H;0;APK;-;1;FLOW ANALYSIS;D;0;L;R;A
+96;8;Static Analysis for Extracting Permission Checks of a Large Scale Framework: The Challenges and Solutions for Analyzing Android;2014;TSE;Journal;PRIVACY;E;Q;G;A;S;0;APK;-;0;STRING ANALYSIS;D;0;H;R;A
+97;30S;Responsiveness analysis tool for android application;2014;DeMobile;Workshop;PERFORMANCE;E;Q;A;A;S;0;SOURCE CODE;-;0;RESPONSIVENESS ANALYSIS;D;0;L;R;A
+98;38S;Automatically exploiting potential component leaks in android applications;2014;TrustCom;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION;E, M;Q;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;H;R;A
+99;50S;Effective inter-component communication mapping in android: An essential step towards holistic security analysis;2013;USENIX;Conference;PRIVACY, INTER-APP COMMUNICATION;E, M;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;H;R;A
+100;66S;DroidAPIMiner: Mining API-level features for robust malware detection in android;2013;SecureComm;Conference;MALWARE;E;Q;A;A;H;1;APK;-;1;DATA MINING, CLASSIFICATION;A;0;H;R;A
+101;71S;An empirical study of cryptographic misuse in android applications;2013;SIGSAC;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;SLICING, FLOW ANALYSIS;D;0;H;T, R;A
+102;77S;Targeted and depth-first exploration for systematic testing of android apps;2013;ACM SIGPLAN Notices;Journal;TESTING;I;Q;A;A;H;0;APK;-;0;TAINT ANALYSIS, FLOW ANALYSIS;D;0;L;R;A
+103;88S;Sound and precise malware analysis for android via pushdown reachability and entry-point saturation;2013;SPSM;Conference;MALWARE;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;0;L;T;A
+104;91S;AppIntent: analyzing sensitive data transmission in android for privacy leakage detection;2013;CCS;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION;E, M;Q;A;A;H;0;APK;-;0;SYMBOLIC EXECUTION;A;0;M;R;A
+105;92S;AppProfiler: a flexible method of exposing privacy-related behavior in android applications to end users;2013;CODASPY;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;1;DATA MINING, CLASSIFICATION;U;0;H;R;A
+106;94S;Flow permissions for android;2013;ASE;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION, INTER-APP COMMUNICATION;E, M;Q;A;A;S;0;APK;Source code mappings;0;FLOW ANALYSIS;U;1;M;R;A
+107;105S;Slicing Droids: Program Slicing for Smali Code;2013;SAC;Conference;MALWARE;E;Q;A;A;S;0;APK;Source code mappings;0;FLOW ANALYSIS, SLICING;A;1;H;R;A
+108;108S;A grey-box approach for automated GUI-model generation of mobile applications;2013;FASE;Conference;INTER-COMPONENT COMMUNICATION;M;I;G;A;H;0;SOURCE CODE;-;0;SLICING;D;0;L;T;M
+109;114S;Structural detection of android malware using embedded call graphs;2013;AISec;Conference;MALWARE;E;Q;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;A;0;H;R;A
+110;1;Estimating mobile application energy consumption using program analysis;2013;ICSE;Conference;ENERGY;E;Q;G;A;S;0;APK;Workload description;1;FLOW ANALYSIS;D;0;L;R;A
+111;6;Characterizing and detecting resource leaks in Android applications;2013;ASE;Conference;ENERGY, RESOURCE;E, I;Q;A;A;S;0;APK, SOURCE CODE;-;0;FLOW ANALYSIS;D;0;M;T, R;A
+112;7;Calculating source line level energy information for Android applications;2013;ISSTA;Conference;ENERGY;E;Q;G;A;H;0;APK;Source code mappings;1;CONSTANT PROPAGATION, CODE INSTRUMENTATION;D;0;L;R;A
+113;49S;Smartdroid: an automatic system for revealing ui-based trigger conditions in android applications;2012;SPSM;Workshop;MALWARE;E;Q;A;A;H;0;APK;-;0;FLOW ANALYSIS;A;0;L;T;A
+114;72S;Why Eve and Mallory love Android: An analysis of Android SSL (in) security;2012;CCS;Conference;PRIVACY;E;Q;G;A;S;0;APK;-;0;DATA MINING, CLASSIFICATION;R;0;M;R;A
+115;79S;User-aware privacy control via extended static-information-flow analysis;2012;ASE;Conference;PRIVACY;E;Q;G;G;S;0;SOURCE CODE;-;0;FLOW ANALYSIS;U;0;M;R;M
+116;83S;Dr. Android and Mr. Hide: fine-grained permissions in android applications;2012;SPSM;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;STRING ANALYSIS, CONSTANT PROPAGATION;D;0;M;R;M
+117;85S;LeakMiner: Detect Information Leakage on Android with Static Taint Analysis;2012;WCSE;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;TAINT ANALYSIS;A;0;H;R;A
+118;89S;SCANDAL: Static Analyzer for Detecting Privacy Leaks in Android Applications;2012;MOST;Workshop;PRIVACY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;0;L;R;M
+119;93S;A framework for static detection of privacy leaks in android applications;2012;SAC;Conference;PRIVACY;E;Q;A;A;S;0;APK;Policies;1;FLOW ANALYSIS;U;0;L;T;A
+120;97S;DroidChecker: analyzing android applications for capability leak;2012;WiSec;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION, INTER-APP COMMUNICATION;E, M;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS, TAINT ANALYSIS;D;0;M;R;A
+121;113S;DroidMat: Android Malware Detection through Manifest and API Calls Tracing;2012;Asia JCIS;Conference;MALWARE;E;Q;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;A;0;M;R;A
+122;9;Static analysis of Android programs;2012;IST;Journal;TESTING;I;I;A;A;S;0;APK;-;0;CLASS, NULLNESS, TERMINATION ANALYSIS;D;1;L;R;A
+123;1S;Estimating Android applications' CPU energy usage via bytecode profiling;2012;GREENS;Workshop;ENERGY;E;Q;A;A;S;0;APK;System profile, Test cases;1;FLOW ANALYSIS;D;0;L;T;A
+124;3S;What is keeping my phone awake?: characterizing and detecting no-sleep energy bugs in smartphone apps;2012;MOBISYS;Conference;ENERGY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;A
+125;6S;User-centric dependence analysis for identifying malicious mobile apps;2012;MOST;Workshop;MALWARE;E;Q;A;A;S;0;APK, SOURCE CODE;-;0;FLOW ANALYSIS, MODEL BASED;A;0;L;R;A
+126;8S;AndroidLeaks: automatically detecting potential privacy leaks in android applications on a large scale;2012;TRUST;Conference;PRIVACY;E;Q;A;A;S;0;APK;Source code mappings;1;DATA MINING, TAINT ANALYSIS;A;0;H;R;M
+127;11S;Hey, You, Get Off of My Market: Detecting Malicious Apps in Official and Alternative Android Markets.;2012;NDSS;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS, CLASSIFICATION;A;0;H;R;A
+128;22S;RiskRanker: Scalable and Accurate Zero-day Android Malware Detection;2012;MobiSys;Conference;MALWARE;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS, CLASSIFICATION;A;0;H;R;M
+129;23S;Chex: statically vetting android apps for component hijacking vulnerabilities;2012;CCS;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D, A;0;H;R;M
+130;37S;Automatically securing permission-based software by reducing the attack surface: An application to android;2012;ASE;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS, DATA MINING;A;0;M;R;A
+131;80S;Android permissions demystified;2011;CCS;Conference;PRIVACY;E;Q;A;A;S;0;APK;Source code mappings;0;DATA MINING, FLOW ANALYSIS;A;0;M;R;A
+132;104S;Using static analysis for automatic assessment and mitigation of unwanted and malicious activities within Android applications;2011;MALWARE;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;DATA MINING;A;0;M;R;A
+133;20S;Analyzing Inter-application Communication in Android;2011;MobiSys;Conference;INTER-APP COMMUNICATION;M;I;A;A;S;0;APK;-;0;FLOW ANALYSIS;A, D, U;0;M;R;A
+134;21S;PiOS: Detecting Privacy Leaks in iOS Applications;2011;NDSS;Conference;PRIVACY;E;Q;I;I;S;0;IPA, SOURCE CODE;-;0;FLOW ANALYSIS, SLICING;A;0;H;R;A
+135;39;Energypatch: Repairing resource leaks to improve energy-efficiency of android apps;2018;TSE;Journal;ENERGY;E;Q;A;A;H;0;SOURCE CODE;-;0;ABSTRACT INTERPRETATION;D;1;L;R;A
+136;43;A multi-view context-aware approach to Android malware detection and malicious code localization;2018;ESEJ;Journal;MALWARE;I, M;I;A;A;S;1;APK;Source code mappings;0;FLOW ANALYSIS, DATA MINING;A;0;H;R;A
+137;47;AndroidOff:Offloading android application based on cost estimation;2019;JSS;Journal;PERFORMANCE, ENERGY;E;Q;A;A;H;1;SOURCE CODE;Test cases;0;FLOW ANALYSIS;D;0;L;R;A
+138;51;A SEALANT for Inter-App Security Holes in Android ;2017;ICSE;Conference;PRIVACY;E;Q;A;A;H;0;APK;-;0;FLOW ANALYSIS;U;1;H;R;M
+139;55;LibD: Scalable and Precise Third-party Library Detection in Android Markets ;2017;ICSE;Conference;LIBRARY IDENTIFICATION;M;I;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;1;H;R;A
+140;59;Self-Hiding Behavior in Android Apps: Detection and Characterization;2018;ICSE;Conference;MALWARE;I;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;A, U;1;H;R;A
+141;63;Iconintent: automatic identification of sensitive ui widgets based on icon classification for android apps;2019;ICSE;Conference;PRIVACY;E;Q;A;A;S;1;APK;-;0;FLOW ANALYSIS;D;0;M;R;A
+142;79;"Efficiently Manifesting Asynchronous Programming Errors in
+Android Apps";2018;ASE;Conference;PERFORMANCE, ENERGY;E;Q;A;A;H;0;APK;Policies;0;FLOW ANALYSIS;D;0;L;R;A
+143;87;Semi-automated Discovery of Server-Based Information Oversharing Vulnerabilities in Android Applications;2017;ISSTA;Conference;PRIVACY;E;Q;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;0;H;R;A
+144;91;LibID: Reliable Identification of Obfuscated Third-Party Android Libraries;2019;ISSTA;Conference;LIBRARY IDENTIFICATION;M;I;A;A;S;0;APK;Libraries metadata;0;FLOW ANALYSIS;A;1;H;R;A
+145;119S;ADS-SA: System for Automatically Detecting Sensitive Path of Android Applications Based on Static Analysis;2019;ICSCS;Conference;PRIVACY;E;Q;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;0;L;R;A
+146;123S;CDGDroid: Android malware detection based on deep learning using CFG and DFG;2018;ICFEM;Conference;MALWARE;I;Q;A;A;S;1;APK;-;0;FLOW ANALYSIS;A;0;H;R;A
+147;127S;"Machine Learning for Android Malware Detection
+Using Permission and API Calls";2013;ICTAI;Conference;MALWARE;I;Q;A;A;S;1;APK;-;0;DATA MINING;A;0;H;R;A
+148;131S;IIFA: modular inter-app intent information flow analysis of android applications;2019;ICSPCS;Conference;INTER-APP COMMUNICATION, PRIVACY;E, M;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;0;L;R;A
+149;135S;Static Back-Stack Transition Analysis for Android;2019;IEEEACCESS;Journal;INTER-COMPONENT COMMUNICATION;M;I;A;A;S;0;APK;-;0;FLOW ANALYSIS, POINTS-TO ANALYSIS;A;0;M;R;A
+150;139S;"Android Malware Familial Classification and
+Representative Sample Selection via
+Frequent Subgraph Analysis";2018;TIFS;Journal;MALWARE;I;Q;A;A;S;1;APK;-;0;FLOW ANALYSIS, DATA MINING;A;0;H;T;A
+151;143S;"StateDroid: Stateful Detection of Stealthy Attacks in Android
+Apps via Horn-Clause Verification";2018;ACSAC;Conference;MALWARE;I;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS, MODEL CHECKING;A;1;H;R;A
+152;147S;Apkcombiner: Combining multiple android apps to support inter-app analysis;2015;IISPC;Conference;INTER-APP COMMUNICATION, INTER-COMPONENT COMMUNICATION;M;I;A;A;S;0;APK;-;0;DATA MINING;A, D;1;H;R;A
+153;151S;Andarwin: Scalable detection of semantically similar android applications;2013;ESRCS;Conference;MALWARE;I;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;0;H;R;A
+154;155S;Appx: an automated app acceleration framework for low latency mobile app;2018;CONEXT;Conference;PERFORMANCE;E;Q;A;A;H;0;APK;-;0;TAINT ANALYSIS;D;0;L;R;A
+155;159S;"Achieving Accuracy and Scalability Simultaneously in
+Detecting Application Clones on Android Markets";2014;ICSE;Conference;MALWARE;I;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;0;H;R;A
+156;163S;Search-Based Energy Testing of Android;2019;ICSE;Conference;ENERGY;E;Q;A;A;S;0;APK;Platform description;0;FLOW ANALYSIS, MODEL CHECKING;D;1;L;R;A
+157;182S;"TeICC: Targeted Execution of Inter-Component
+Communications in Android";2017;ACMSAC;Conference;PRIVACY, INTER-COMPONENT COMMUNICATION;E;Q;A;A;H;0;APK;Methods of interest;0;FLOW ANALYSIS, SLICING;A;0;L;T;A
+158;186S;API compatibility issues in Android: Causes and effectiveness of data-driven detection techniques;2018;ISSTA;Conference;TESTING;I;I;A;A;S;0;APK;-;0;DATA MINING, FLOW ANALYSIS;D;1;M;R;A
+159;190S;"Androlic: an extensible flow, context, object, field, and path-sensitive static analysis framework for Android
+";2019;ISSTA;Conference;FRAMEWORK;M;I;A;A;S;0;APK;-;0;SYMBOLIC EXECUTION, FLOW ANALYSIS;D;0;L;R;A
+160;195S;EvoDroid: Segmented Evolutionary Testing of Android Apps;2014;ESEC/FSE;Conference;TESTING;I;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;L;R;A
+161;203S;"LibRadar: Fast and Accurate Detection of Third-party
+Libraries in Android Apps";2016;ICSE;Conference;LIBRARY IDENTIFICATION;M;I;A;A;S;1;APK;-;0;DATA MINING, CLASSIFICATION;A;1;H;R;A
+162;207S;"Open Doors for Bob and Mallory: Open Port Usage in
+Android Apps and Security Implications";2017;EUROSP;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS, TAINT ANALYSIS;D;0;H;R;A
+163;216S;Finding flaws from password authentication code in Android apps ;2019;ESRCS;Conference;PRIVACY;I;Q;A;A;S;1;APK;Policies;0;FLOW ANALYSIS, DATA MINING;D;1;H;R;A
+164;221S;Detecting Third-Party Libraries in Android Applications with High Precision and Recall;2018;SANER;Conference;LIBRARY IDENTIFICATION;M;I;A;A;S;0;APK;Libraries of interest;0;FLOW ANALYSIS, DEPENCENCY ANALYSIS;A;0;H;R;A
+165;42;"EARMO: An Energy-Aware Refactoring
+Approach for Mobile Apps";2018;TSE;Journal;ENERGY, REFACTORING;E, I;Q;A;A;H;0;APK;Execution traces;1;MODEL BASED;D;0;L;R;A
+166;46;DelDroid : An automated approach for determination and enforcement of least-privilege architecture in android;2019;JSS;Journal;PRIVACY, INTER-COMPONENT COMMUNICATION;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS, DATA MINING;D;1;M;R;A
+167;50;Lifting inter-app data-flow analysis to large app sets;2018;ASE;Journal;INTER-APP COMMUNICATION, PRIVACY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS, TAINT ANALYSIS;A;1;H;R;A
+168;58;Leveraging Program Analysis to Reduce User-Perceived Latency in Mobile Applications;2018;ICSE;Conference;PERFORMANCE;E;Q;A;A;H;0;APK;-;0;STRING ANALYSIS, FLOW ANALYSIS;D;1;L;T, R;A
+169;62;Graph Embedding based Familial Analysis of Android Malware using Unsupervised Learning;2019;ICSE;Conference;MALWARE;I;Q;A;A;S;1;APK;-;1;FLOW ANALYSIS;A;1;H;R;A
+170;66;PATDroid: Permission-Aware GUI Testing of Android;2017;ESEC/FSE;Conference;TESTING;I;I;A;A;H;0;APK;Test cases;1;FLOW ANALYSIS;D;1;M;R;A
+171;74;Together Strong: Cooperative Android App Analysis;2019;ESEC/FSE;Conference;INTER-APP COMMUNICATION, INTER-COMPONENT COMMUNICATION;M;I;A;A;H;0;APK;User defined analysis;0;FLOW ANALYSIS, TAINT ANALYSIS, CONSTANT PROPAGATION;D;1;M;T;A
+172;78;Android testing via synthetic symbolic execution;2018;ASE;Conference;TESTING;I;I;A;A;H;0;SOURCE CODE;-;0;SYMBOLIC EXECUTION;D;1;L;T;A
+173;82;"Self-Protection of Android Systems from Inter-component
+Communication Attacks";2018;ASE;Conference;PRIVACY;E;I;A;A;H;0;APK;-;0;FLOW ANALYSIS;A;1;H;R;A
+174;86;MalScan: Fast Market-Wide Mobile Malware Scanning by Social-Network Centrality Analysis;2019;ASE;Conference;MALWARE;E;Q;A;A;S;1;APK;-;0;FLOW ANALYSIS;A;1;H;R;A
+175;90;Automated API-Usage Update for Android Apps;2019;ISSTA;Conference;REFACTORING;I;Q;A;A;S;0;APK;Source code mappings;0;FLOW ANALYSIS;D;1;L;R;A
+176;118S;Leila: formal tool for identifying mobile malicious behaviour;2018;TSE;Journal;MALWARE;E;Q;A;A;S;0;APK;Policies;1;MODEL CHECKING;A;0;M;R;A
+177;122S;Re-checking App Behavior against App Description in the Context of Third-party Libraries;2018;SEKE;Conference;MALWARE;E;Q;A;A;S;1;APK;App store descriptions;1;DATA MINING, CLASSIFICATION;A;0;H;R;A
+178;130S;VAnDroid: A framework for vulnerability analysis of Android applications using a model-driven reverse engineering technique;2019;SEIP;Journal;PRIVACY;E;Q;A;A;S;0;APK;-;0;MODEL BASED, TAINT ANALYSIS;A;0;M;R;A
+179;134S;"AnFlo: Detecting Anomalous Sensitive Information Flows
+in Android Apps";2018;MOBILESOFT;Conference;PRIVACY, MALWARE;E;Q;A;A;S;0;APK;-;1;TAINT ANALYSIS, DATA MINING, CLASSIFICATION;A, U;1;M;R;A
+180;138S;"PaddyFrog: systematically detecting confused deputy
+vulnerability in Android applications";2015;SCN;Journal;PRIVACY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS, DATA MINING;A;1;H;R;A
+181;142S;"Dalvik Opcode Graph Based Android Malware
+Variants Detection Using Global
+Topology Features";2018;IEEEACCESS;Journal;MALWARE;E, M;Q, I;A;A;S;0;APK;-;1;OPCODE ANALYSIS;A;0;H;R;A
+182;146S;Obfusifier: Obfuscation-resistant Android malware detection system;2019;ICSPCS;Conference;MALWARE;E;Q, I;A;A;S;1;APK;Methods of interest;1;FLOW ANALYSIS;A;0;H;R;A
+183;150S;On automatically detecting similar Android apps;2016;ICPC;Conference;SIMILARITY;I;I;A;A;S;0;APK;-;0;DATA MINING;A, D, U;1;H;R;A
+184;154S;Contextual policy enforcement in android applications with permission event graphs;2013;NDSS;Conference;PRIVACY;E;Q;A;A;S;0;APK;Policies;0;FLOW ANALYSIS, POINTS-TO ANALYSIS;A, U;0;M;R;A
+185;158S;Toward a framework for detecting privacy policy violations in android application code;2016;ICSE;Conference;PRIVACY;E;Q;A;A;S;0;APK;Policies;1;FLOW ANALYSIS;D, A;1;H;R;A
+186;162S;LUDroid: A large scale analysis of Android--Web hybridization;2019;SCAM;Conference;FRAMEWORK, PRIVACY;I;Q;A;A;S;0;APK;-;0;SLICING;D, A;0;H;R;A
+187;177S;"COVERT: Compositional Analysis of Android
+Inter-App Permission Leakage";2015;TSE;Journal;PRIVACY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;1;M;R;A
+188;185S;"Data-Driven Solutions to Detect API Compatibility
+Issues in Android: An Empirical Study";2019;MSR;Conference;REFACTORING;I;I;A;A;S;0;APK;-;0;DATA MINING;D;1;H;R;A
+189;189S;Harvesting Developer Credentials in Android Apps;2015;WiSec;Conference;PRIVACY;I;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;0;H;R;M
+190;194S;Learning Performance Optimization from Code Changes for Android Apps;2019;MLST;Workshop;PERFORMANCE;E;Q;A;A;S;0;SOURCE CODE;Git-based code history;0;FLOW ANALYSIS;D;0;L;T;A
+191;198S;Guided, Stochastic Model-Based GUI Testing of Android Apps;2017;ESEC/FSE;Conference;TESTING;I;I;A;A;H;0;APK;-;1;FLOW ANALYSIS;D;1;H;T, R;A
+192;202S;Understanding the purpose of permission use in mobile apps;2017;TOIS;Journal;PRIVACY;E, M;Q, I;A;A;S;1;APK;-;0;DATA MINING;U;0;H;R;A
+193;206S;Smv-hunter: Large scale, automated detection of ssl/tls man-in-the-middle vulnerabilities in android apps;2014;NDSS;Conference;PRIVACY;E, M;Q, I;A;A;H;0;APK;-;0;FLOW ANALYSIS;A;1;H;R;A
+194;211S;Android HIV: A Study of Repackaging Malware for Evading Machine-Learning Detection;2019;TIFS;Journal;MALWARE;M;I;A;A;S;1;APK;-;0;FLOW ANALYSIS;A;0;H;R;A
+195;215S;Lightweight, Obfuscation-Resilient Detection and Family Identification of Android Malware;2018;TOSEM;Journal;MALWARE;E, M;Q, I;A;A;S;1;APK;-;1;CLASSIFICATION;A;1;H;R;A
+196;220S;Who changed you? Obfuscator identification for Android;2017;MOBILESOFT;Conference;OBFUSCATOR IDENTIFICATION;M;I;A;A;S;1;APK;-;1;CLASSIFICATION;A;0;H;T, R;A
+197;41;Enhancing the description-to-behavior fidelity in android apps with privacy policy};2018;TSE;Journal;MALWARE;M;I;A;A;S;0;APK;App store descriptions, Policies;1;FLOW ANALYSIS, DATA MINING;A, D;1;L;R;A
+198;49;Static window transition graphs for Android;2018;ASE;Journal;INTER-COMPONENT COMMUNICATION;E, I;Q;A;A;S;0;APK;-;1;FLOW ANALYSIS;A, D;1;L;R;A
+199;53;An Efficient, Robust, and Scalable Approach for Analyzing Interacting Android Apps        ;2017;ICSE;Conference;TESTING, PRIVACY, INTER-APP COMMUNICATION;E, I;Q;A;A;H;0;APK;-;1;FLOW ANALYSIS, SYMBOLIC EXECUTION, POINTS-TO ANALYSIS;A, D;1;L;T;A
+200;57;A Temporal Permission Analysis and Enforcement Framework for Android;2018;ICSE;Conference;PRIVACY;I;Q;A;A;H;0;APK;Other tools output;1;MODEL CHECKING;D;1;H;R;A
+201;61;"GUILeak: Tracing Privacy Policy Claims on User Input Data
+for Android Applications";2018;ICSE;Conference;PRIVACY;E;Q;A;A;S;0;APK;Policies;1;FLOW ANALYSIS;A, D;1;M;R;A
+202;65;Towards understanding and reasoning about android interoperations;2019;ICSE;Conference;INTER-APP COMMUNICATION;I;Q;A;A;S;0;SOURCE CODE;-;1;TYPE INFERENCE;D;1;L;R;A
+203;69;"OASIS: Prioritizing Static Analysis Warnings for Android Apps
+Based on App User Reviews";2017;ESEC/FSE;Conference;INTER-COMPONENT COMMUNICATION;I;Q;A;A;S;0;APK;Platform description;1;FLOW ANALYSIS, SYMBOLIC EXECUTION;D;1;H;R;A
+204;73;"ServDroid: Detecting Service Usage Inefficiencies in Android
+Applications";2019;ESEC/FSE;Conference;PERFORMANCE;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;H;R;A
+205;77;TDroid: Exposing App Switching Attacks in Android with Control Flow Specialization;2018;ASE;Conference;MALWARE, PRIVACY;E;Q;A;A;H;0;APK;Methods of interest;1;FLOW ANALYSIS;A, D;1;H;R;A
+206;81;Characterizing and identifying misexposed activities in android applications;2018;ASE;Conference;INTER-COMPONENT COMMUNICATION, PRIVACY;E, I;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;A, D;1;H;R;A
+207;85;"OAUTHLINT: An Empirical Study on OAuth Bugs
+in Android Applications";2019;ASE;Conference;PRIVACY;E;Q;A;A;S;0;APK, SOURCE CODE;Policies;1;TAINT ANALYSIS, POINTS-TO ANALYSIS;A, D;0;M;R;A
+208;89;"Remove RATs from Your Code: Automated Optimization of
+Resource Inefficient Database Writes for Mobile Applications";2018;ISSTA;Conference;PERFORMANCE, ENERGY;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;H;R;A
+209;117S;Systematic detection of capability leaks in stock Android smartphones;2012;NDSS;Conference;PRIVACY;E, I;Q;A;A;S;0;APK;Platform description;0;FLOW ANALYSIS;D;1;L;R;A
+210;121S;Understanding the inconsistencies between text descriptions and the use of privacy-sensitive resources of mobile apps;2015;SOUPS;Conference;PRIVACY;E;Q;A;A;S;0;APK;App store descriptions;0;FLOW ANALYSIS;A, D;1;H;R;A
+211;129S;"Refactoring Android Java Code for On-Demand
+Computation Offloading";2012;SIGPLAN;Journal;REFACTORING;I;I;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;L;T;A
+212;133S;Jitana: A modern hybrid program analysis framework for android platforms;2019;JCL;Journal;PRIVACY, MALWARE, INTER-APP COMMUNICATION;E, I;Q, I;A;A;H;0;APK;-;0;FLOW ANALYSIS, SYMBOLIC EXECUTION, POINTS-TO ANALYSIS;A, D;1;H;R;A
+213;137S;DroidAlarm: an all-sided static analysis tool for Android privilege-escalation malware;2013;SICCS;Conference;MALWARE;E;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;L;R;A
+214;141S;Tackling runtime-based obfuscation in Android with TIRO;2018;USENIX;Conference;MALWARE;E;Q;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;1;L;R;A
+215;145S;Grandroid: Graph-based detection of malicious network behaviors in android applications;2018;ICSPCS;Conference;MALWARE;E, I;Q, I;A;A;H;1;APK;Test cases;1;FLOW ANALYSIS, SYMBOLIC EXECUTION, POINTS-TO ANALYSIS;D;1;H;R;A
+216;149S;ViewDroid: Towards obfuscation-resilient mobile application repackaging detection;2014;WiSec;Conference;MALWARE;E;Q;A;A;S;0;APK;-;1;FLOW ANALYSIS;D;1;H;R;A
+217;157S;Towards automatic generation of security-centric descriptions for android apps;2015;CCCS;Conference;PRIVACY;E, I;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS, DATA MINING;A, D, U;1;L;R;A
+218;161S;DeepIntent: Deep icon-behavior learning for detecting intention-behavior discrepancy in mobile apps;2019;CCCS;Conference;PRIVACY, MALWARE;E, I;Q;A;A;S;1;APK;UI elements, Permissions of interest;0;FLOW ANALYSIS, DATA MINING;A, D;1;H;R;A
+219;165S;SENTINEL: generating GUI tests for sensor leaks in Android and Android wear apps;2019;SQJ;Journal;TESTING, ENERGY;E, I;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;H;R;A
+220;169S;"LESDroid - A Tool for Detecting Exported Service Leaks of
+Android Applications";2018;ICPC;Conference;PRIVACY, TESTING, PERFORMANCE, ENERGY;I;Q;A;A;H;0;APK;-;0;FLOW ANALYSIS;D;1;H;R;A
+221;175S;"Static detection of
+energy defect patterns in Android applications";2016;ICCC;Conference;ENERGY;E;Q, I;A;A;S;0;APK;-;0;FLOW ANALYSIS;D;1;L;R;A
+222;184S;Wechecker: efficient and precise detection of privilege escalation vulnerabilities in android apps;2015;WiSec;Conference;PRIVACY;E, I;Q, I;A;A;S;0;APK;-;0;TAINT ANALYSIS, FLOW ANALYSIS;D;0;H;R;A
+223;188S;"Launch-Mode-Aware Context-Sensitive Activity Transition
+Analysis";2018;ICSE;Conference;INTER-COMPONENT COMMUNICATION;I;I;A;A;S;0;APK;-;1;POINTS-TO ANALYSIS;D;1;L;R;A
+224;192S;"SIG-Droid: Automated System Input Generation for
+Android Applications";2015;ISSRE;Conference;TESTING;I, M;I;A;A;S;0;APK, SOURCE CODE;-;1;FLOW ANALYSIS, SYMBOLIC EXECUTION;D;0;L;R;A
+225;197S;Reducing Combinatorics in GUI Testing of Android Applications;2016;ICSE;Conference;TESTING;I, M;I;A;A;S;0;APK, SOURCE CODE;-;1;FLOW ANALYSIS;D;1;L;R;A
+226;201S;"Detection of Design Flaws in the Android
+Permission Protocol Through Bounded Verification";2015;ISFM;Conference;PRIVACY;I;Q;G;A;S;0;APK;-;0;FLOW ANALYSIS;D;0;M;R;A
+227;205S;Reliable third-party library detection in android and its security applications;2016;CCCS;Conference;PRIVACY;I;Q;A;A;S;0;APK;Libraries metadata;1;SIMILARITY-BASED;D;1;H;R;A
+228;210S;"IntelliDroid: A Targeted Input Generator for the
+Dynamic Analysis of Android Malware";2016;NDSS;Conference;MALWARE;I;I;A;A;H;0;APK;Methods of interest;1;FLOW ANALYSIS, TAINT ANALYSIS;D;1;L;R;A
+229;214S;"EnMobile: Entity-based Characterization and Analysis of Mobile
+Malware";2018;ICSE;Conference;MALWARE;E;Q;A;A;S;0;APK;-;1;FLOW ANALYSIS;A, D, U;1;H;R;A
+230;219S;Ordol: Obfuscation-Resilient Detection of Libraries in Android Applications;2017;TrustCom;Conference;LIBRARY IDENTIFICATION;I, M;I;A;A;S;0;APK;Libraries metadata;1;SIMILARITY-BASED, FLOW ANALYSIS;D;1;L;R;A
+231;40;Towards model checking android applications;2018;TSE;Journal;PRIVACY;I;Q;A;A;H;0;APK;-;0;SLICING, MODEL CHECKING;D, A;0;M;T, R;A
+232;44;Security code smells in Android ICC;2019;ESEJ;Journal;PRIVACY;I;Q;A;A;S;0;APK, SOURCE CODE;-;0;PATTERN-BASED CONTEXTUAL ANALYSIS;D, A;1;M;R;A
+233;48;Characterizing malicious Android apps by mining topic-specific data flow signatures;2017;IST;Journal;MALWARE;E;Q;A;A;S;0;APK;App store descriptions;1;FLOW ANALYSIS;A;1;M;R;A
+234;56;"Making Malory Behave Maliciously: Targeted
+Fuzzing of Android Execution Environments";2017;ICSE;Conference;MALWARE;E;I;A;A;H;0;APK;Methods of interest;1;FLOW ANALYSIS, SYMBOLIC EXECUTION;A;1;M;R;M
+235;60;DroidStar: Callback Typestates for Android Classes;2018;ICSE;Conference;INTER-COMPONENT COMMUNICATION;I;I;A;A;H;1;APK;Code snippets;1;FLOW ANALYSIS, CLASSIFICATION;D;1;L;T;M
+236;64;"PIVOT: Learning API-Device Correlations to
+Facilitate Android Compatibility Issue Detection";2019;ICSE;Conference;INTER-APP COMMUNICATION, REFACTORING;E;I;A;A;S;1;APK;-;0;FLOW ANALYSIS, CLASSIFICATION;D;1;H;R;A
+237;68;"Automatic Generation of Inter-Component Communication
+Exploits for Android Applications";2017;ESEC/FSE;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;1;SYMBOLIC EXECUTION;A;0;H;R;A
+238;72;Neural-augmented static analysis of Android communication;2018;ESEC/FSE;Conference;INTER-COMPONENT COMMUNICATION;I;I;A;A;S;1;APK;-;0;CLASSIFICATION;D;0;H;R;M
+239;76;"Understanding and Detecting Evolution-Induced Compatibility
+Issues in Android Apps";2018;ASE;Conference;REFACTORING;I;I;A;A;S;0;APK;Platform description;0;FLOW ANALYSIS;D;0;H;R;A
+240;84;Goal-Driven Exploration for Android Applications;2019;ASE;Conference;REFACTORING;I;I;A;A;H;0;APK;Source code mappings;0;FLOW ANALYSIS;D;1;M;R;A
+241;88;CiD: Automating the Detection of API-related Compatibility Issues in Android Apps;2018;ISSTA;Conference;REFACTORING;I;I;A;A;S;0;APK;Platform description;0;DATA MINING, FLOW ANALYSIS;D;0;H;R;A
+242;92;QADroid: Regression Event Selection for Android Applications;2019;ISSTA;Conference;TESTING;I;I;A;A;S;0;APK;APK versions;0;FLOW ANALYSIS;D;1;L;R;A
+243;120S;Automated analysis of privacy requirements for mobile app;2017;NDSS;Conference;PRIVACY;E;Q;A;A;S;1;APK;-;0;FLOW ANALYSIS;A;0;H;R;A
+244;124S;apk2vec: Semi-supervised multi-view representation learning for profiling Android applications;2018;ICDM;Conference;REFACTORING;I;I;A;A;S;0;APK;-;0;FLOW ANALYSIS;A;0;H;R;A
+245;128S;"Collusive Data Leak and More: Large-scale Threat
+Analysis of Inter-app Communications";2017;AsiaCCS;Conference;PRIVACY, INTER-APP COMMUNICATION, INTER-COMPONENT COMMUNICATION;I;Q;A;A;S;0;APK;-;0;FLOW ANALYSIS;D, A;1;H;R;A
+246;132S;"Efficient, Evolutionary Security Analysis of
+Interacting Android Apps";2018;ICSME;Conference;PRIVACY;E;Q;A;A;S;0;APK;-;0;MODEL BASED, FORMAL ANALYSIS;D, A;1;M;R;A
+247;136S;Detecting Passive Content Leaks and Pollution in Android Applications;2013;NDSS;Conference;PRIVACY;E;I;A;A;S;0;APK;-;0;FLOW ANALYSIS, DATA MINING;A;0;H;R;A
+248;140S;Dapasa: detecting android piggybacked apps through sensitive subgraph analysis;2017;TIFS;Journal;MALWARE;E;I;A;A;S;1;APK;-;0;FLOW ANALYSIS;A;0;H;R;A
+249;148S;Orlis: Obfuscation-resilient library detection for Android;2018;MOBILESOFT;Conference;INTER-APP COMMUNICATION, INTER-COMPONENT COMMUNICATION;M;I;A;A;S;0;APK;Libraries metadata;0;DATA MINING, SIMILARITY-BASED;D, A;1;M;R;A
+250;152S;Juxtapp: A scalable system for detecting code reuse among android applications;2012;DIMVA;Conference;PRIVACY;E, M;I;A;A;S;0;APK;-;1;DATA MINING, SIMILARITY-BASED;A;0;H;R;M
+251;156S;A new android malware detection approach using bayesian classification;2013;AINA;Conference;MALWARE, PRIVACY;E;Q;A;A;S;1;APK;-;1;CLASSIFICATION;A;0;H;T, R;M
+252;160S;"Towards a Scalable Resource-driven Approach for
+Detecting Repackaged Android Applications";2014;ACSAC;Conference;MALWARE;E;I;G;A;S;0;APK;-;0;SIMILARITY-BASED;A;0;H;R;A
+253;168S;Efficiently Manifesting Asynchronous Programming Errors in Android Apps;2018;ASE;Conference;TESTING, REFACTORING;M, I;I;A;A;H;0;APK;Issue reports;0;FLOW ANALYSIS;D;0;L;R;A
+254;173S;"Automatically Discovering, Reporting and
+Reproducing Android Application Crashes";2016;ICST;Conference;TESTING, REFACTORING;M, I;I;A;A;H;0;APK;-;1;FLOW ANALYSIS;D;0;L;R;A
+255;183S;HornDroid: Practical and Sound Static Analysis of Android Applications by SMT Solving;2016;EUROSP;Conference;PRIVACY;M, I;I;A;A;S;0;APK;-;0;ABSTRACT INTERPRETATION;D;0;L;T, R;A
+256;187S;"Android Multitasking Mechanism: Formal
+Semantics and Static Analysis of Apps";2019;ASPLS;Conference;REFACTORING;M;I;A;A;S;0;APK;-;0;ABSTRACT INTERPRETATION, FLOW ANALYSIS;D;0;H;R;A
+257;200S;Privacy Leakage through Exploitation of Vulnerable Inter-App Communication on Android;2019;ICOSST;Conference;PRIVACY, INTER-APP COMMUNICATION;E;Q;A;A;S;0;APK;Permissions of interest;0;DATA MINING;A;0;L;R;A
+258;204S;Revisiting the impact of common libraries for android-related investigations;2019;JSS;Journal;MALWARE, REFACTORING;M, E;I;A;A;S;1;APK;-;0;SIMILARITY-BASED;D, A;1;H;R;A
+259;208S;Authorship attribution of Android apps;2018;DASP;Conference;AUTHORSHIP, MALWARE;I;I;A;A;S;1;APK;-;1;CLASSIFICATION;D;0;H;T, R;A
+260;213S;Improving accuracy of Android malware detection with lightweight contextual awareness;2018;ACSAC;Conference;MALWARE;E;I;A;A;S;1;APK;-;1;FLOW ANALYSIS, CLASSIFICATION;A;0;H;R;A
+261;217S;"Characterizing and Detecting Inefficient Image
+Displaying Issues in Android Apps";2019;SANER;Conference;PERFORMANCE;M, I;I;A;A;S;0;APK;-;1;FLOW ANALYSIS, DATA MINING;D;0;M;R;A
