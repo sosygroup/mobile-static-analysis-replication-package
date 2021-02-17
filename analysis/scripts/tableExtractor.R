@@ -7,12 +7,12 @@ filePath <- paste(tablesPath, columnName, ".tex", sep="")
 
 tagsToConsider <- levels(data[[columnName]])
 
-# se si vuole considerare solo un sottoinsieme dei tag (e.g., solo workshop papers e conference papers), 
-# specificarli qui sotto e decommentare la riga. Tutto ci?? che non sta qui va nella categoria "Other"
+# if you want to consider only a subset of the tags (e.g., solo workshop papers e conference papers), 
+# you need to uncomment the line below. Everything that is not here goes into a category named "Other".
 
-#tagsToConsider <- c("0", "1")
+#tagsToConsider <- c("workshop", "conference")
 
-# qui ci vanno le coppie valore-label nel caso in cui vogliamo rinominare alcune label del parametro
+# if you want to rename some parameter labels, you need to specify the pairs value-label
 prettyPrintedTags <- c("FLOW ANALYSIS" = "Flow Analysis",
                        "TAINT ANALYSIS" = "Taint Analysis",
                        "DATA MINING" = "Data Mining",

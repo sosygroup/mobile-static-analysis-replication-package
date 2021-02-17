@@ -1,5 +1,5 @@
-# Line chart
-data_ <- read.csv("../rawData/data.csv", header = TRUE, quote = "\"", dec = ".", fill = TRUE, comment.char = "", na.strings = "-")
+setwd('/Users/gianlucascoccia/Desktop/svn2/gianluca/MappingStaticAnalysisApps/replicationPackage/data/scripts')
+data_ <- read.csv2("../data/rawData/data.csv", header = TRUE, quote = "\"", dec = ".", fill = TRUE, comment.char = "", na.strings = "-")
 
 # name of the X and Y axis labels
 xLabel <- "Year"
@@ -11,7 +11,7 @@ columnName <- "Macro.analysis.goal"
 #years column
 yearsCol <- "Year.of.publication"
 
-fileName <- "../../paper/figures/MacroContributionTypeBubble.png"
+fileName <- "../../../JISA_2020/figures/MacroContributionTypeBubble.png"
 
 # one element for each possible year
 yearsInt <- c(min(data_[[yearsCol]]):max(data_[[yearsCol]]))
@@ -31,7 +31,7 @@ for (yearIndex in seq_along(yearsInt)) {
     }
 }
 d <- data.frame(yearsInt, yearCounts)
-colnames(d) <- c("Year","Methodology Improvement", "Internal Quality","External Quality")
+colnames(d) <- c("Year","Methodology\nImprovement", "Internal\nQuality","External\nQuality")
 
 library(plyr)
 
@@ -82,9 +82,9 @@ p <- ggplot(grid,aes(Year,Type))+
         axis.title.x = element_text(size=15), axis.title.y = element_text(size=15)) + 
   theme(axis.line = element_line(color = 'black')) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 7)) +
-  scale_y_discrete(labels = c("Methodology Improvement", "External Quality", "Internal Quality"))
+  scale_y_discrete(labels = tail(colnames(d),-1))
 
 
 print(p)
-ggsave(fileName, p, width=3.4, height=1.5, units="in", scale=3)
+ggsave(fileName, p, width=3.8, height=1.5, units="in", scale=3)
 

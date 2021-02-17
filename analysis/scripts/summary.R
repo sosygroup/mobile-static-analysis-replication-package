@@ -1,3 +1,5 @@
+setwd('/Users/gianlucascoccia/Desktop/svn2/gianluca/MappingStaticAnalysisApps/replicationPackage/data/scripts')
+
 # here we select which indexes must be considered, for the full list run this in the console: names(df)
 startIndex <- 4
 stopIndex <- 28
@@ -16,7 +18,7 @@ margin <- 8
 fileName <- "../output/summary.pdf"
 
 # here we select which data frame is containing all the data
-data <- read.csv2("../rawData/data.csv", header = TRUE, quote = "\"", dec = ".", fill = TRUE, comment.char = "", na.strings = "-")
+data <- read.csv2("../data/rawData/data.csv", header = TRUE, quote = "\"", dec = ".", fill = TRUE, comment.char = "", na.strings = "-")
 dataSource <- data
 
 # separator used in categorical variables with multiple values

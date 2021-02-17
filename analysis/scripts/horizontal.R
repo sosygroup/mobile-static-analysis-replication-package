@@ -4,7 +4,8 @@ stopIndex <- 28
 blackListIndexes <- c(5, 18)
 
 # here we select which data frame is containing all the data
-data <- read.csv("../rawData/data.csv", header = TRUE, quote = "\"", dec = ".", fill = TRUE, comment.char = "", na.strings = "AAAAAAAA")
+setwd('/Users/gianlucascoccia/Desktop/svn2/gianluca/MappingStaticAnalysisApps/replicationPackage/data/scripts')
+data <- read.csv2("../data/rawData/data.csv", header = TRUE, quote = "\"", dec = ".", fill = TRUE, comment.char = "", na.strings = "AAAAAAAA")
 outputFile <- "../output/horizontal.pdf"
 dataSource <- data
 

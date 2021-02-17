@@ -2,10 +2,10 @@ import csv
 from jinja2 import Template
 
 
-data = csv.reader(open("../rawData/data.csv"), delimiter=';')
+data = csv.reader(open("../data/rawData/data.csv"), delimiter=';')
 next(data, None) 
 
-out_file = open("../../paper/tables/Appendix.primary.studies.tex", "w")
+out_file = open("Appendix.primary.studies.tex", "w")
 
 template = Template(
 """{\\tiny 
